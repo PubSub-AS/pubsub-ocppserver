@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/usr/share/dotnet:$PATH",
+        "DOTNET_ROOT": "/usr/share/dotnet"
+    }
+}

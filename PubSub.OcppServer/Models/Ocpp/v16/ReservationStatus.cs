@@ -1,0 +1,14 @@
+﻿using System.Text.Json.Serialization;
+
+namespace PubSub.OcppServer.Models.Ocpp.v16
+{
+    [JsonConverter(typeof(JsonStringEnumConverter))]
+    public enum ReservationStatus
+    {
+        Accepted,
+        Faulted,
+        Occupied,
+        Rejected,
+        Unavailable
+    }
+}
